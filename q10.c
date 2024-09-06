@@ -3,29 +3,25 @@
 
 void main()
 {
-    int i,n=5,j;
-    
-    
-    for(i=1;i<=n;i++)
-    {
-    	for(j=i;j>=1;j--)
-    	{
-    		
-    		
-            if(j%2==0)
-    		{
-    			printf("1 ");
-    		
+	
+	int a,b,c;
+	
+	for(a=1;a<=5;a++)
+	{
+		for(c=a ;c<=0;c++)
+		{
+			printf("  ");
+		}
+		for(b=a;b>=1;b--)
+		{
+			if(b%2==0){
+				printf("1 ");
 			}
-			else
-			{
+			else{
 				printf("0 ");
 			}
-		
 		}
 		printf("\n");
 	}
-	
-	
-	
 }
+
